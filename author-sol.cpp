@@ -24,7 +24,7 @@ int main() {
 		// if not, then check if a number two (2) exists in the sequence
 		// because we can change two (2) to an odd number using the 'p' operation
 		// so it is always possible to match one odd number to this newly created odd number
-		// and the sum is now be even
+		// and the sum will now be even
 		// if there are no twos in the sequence and the sum is odd, then output -1
 		int ans = -1;
 		if (sum % 2 == 0) {
